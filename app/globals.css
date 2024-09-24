@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+  overscroll-behavior: none;
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -15,6 +16,7 @@
 }
 
 body {
+  overscroll-behavior: none;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
